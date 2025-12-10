@@ -6,28 +6,28 @@ folder_files:
     path: documenten/1._Proceshandreiking_gba-bag_versie_1.01.pdf
     group: 310
     versie: 1.01
-    status: 
+    status: Nooit in gebruik genomen
     omschrijving: 
     datum: 20110311
   - title: 2. Koppelvlakbeschrijving BAG-GBA obv StUF 3 01 (v 0 5) (pdf)
     path: documenten/2._Koppelvlakbeschrijving_BAG-GBA_obv_StUF_3_01_(v_0_5).pdf
     group: 310
     versie: 0.5
-    status: 
+    status: Nooit in gebruik genomen
     omschrijving: 
     datum: 20130321
   - title: 3. src baggba 2103 (zip)
     path: documenten/3._src_baggba_2103.zip
     group: 310
     versie: 2.10
-    status: 
+    status: Nooit in gebruik genomen
     omschrijving: 
     datum: 20130321
   - title: 5. Wijzigingsverzoek RFC v1 (pdf)
     path: documenten/5._Wijzigingsverzoek_RFC_v1.pdf
     group: 310
     versie: 1.0
-    status: 
+    status: Nooit in gebruik genomen
     omschrijving: 
     datum: 20130626
   - title: BAG GBA Koppelvlak beschrijving (pdf)
@@ -76,7 +76,7 @@ folder_files:
 
 # Documentatie
 
-## BAG-GBA 3.10 (In ontwikkeling)
+## BAG-GBA 2.04
 
 <table>
 	<thead>
@@ -86,7 +86,7 @@ folder_files:
 	</thead>
 	<tbody>
 		{% for i in page.folder_files %}
-			{% if i.group == 310 %} 
+			{% if i.group == 204 %} 
 				<tr>
 					<td>
 					  <a href="{{ i.path | base_url }}">
@@ -103,7 +103,7 @@ folder_files:
 	</tbody>
 </table>
 
-## BAG-GBA 2.04
+## BAG-GBA 3.10 (Nooit in gebruik genomen)
 
 <table>
 	<thead>
@@ -113,7 +113,7 @@ folder_files:
 	</thead>
 	<tbody>
 		{% for i in page.folder_files %}
-			{% if i.group == 204 %} 
+			{% if i.group == 310 %} 
 				<tr>
 					<td>
 					  <a href="{{ i.path | base_url }}">
